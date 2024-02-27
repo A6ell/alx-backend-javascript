@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 /**
  * Counts the students in a CSV data file.
  * @param {String} dataPath The path to the CSV data file.
- * @author Iyasu Asnake <https://github.com/Iyasu2>
+ * @author Abel Demere <https://github.com/ab-ruh>
  */
 async function countStudents(path) {
   try {

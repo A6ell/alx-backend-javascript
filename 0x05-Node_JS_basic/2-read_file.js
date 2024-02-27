@@ -1,9 +1,9 @@
 const fs = require('fs');
 
 /**
- * This function counts students in a database.
+ * Counts students in a database.
  * @param {string} path - path to file.
- * @author Iyasu Asnake <https://github.com/Iyasu2>
+ * @author Abel Demere <https://github.com/ab-ruh>
  */
 function countStudents(path) {
   let data;
