@@ -6,8 +6,8 @@ import readDatabase from '../utils';
 const VALID_MAJORS = ['CS', 'SWE'];
 
 /**
- * Contains the student-related route handlers.
- * @author Bezaleel Olakunori <https://github.com/B3zaleel>
+ * student-related route handlers.
+ * @author Abel Demere <https://github.com/ab-ruh>
  */
 class StudentsController {
   static getAllStudents(request, response) {
