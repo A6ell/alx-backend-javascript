@@ -1,11 +1,10 @@
-// 0-console.js
-
 /**
- * Displays the given message in STDOUT.
- * @param {string} message - The message to be displayed.
+ * This function prints a message to the console.
+ * @param {string} message - The message to print.
+ * @author Iyasu Asnake <https://github.com/Iyasu2>
  */
-function displayMessage(message) {
+const displayMessage = (message) => {
   console.log(message);
-}
+};
 
 module.exports = displayMessage;
